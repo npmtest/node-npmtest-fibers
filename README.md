@@ -1,6 +1,6 @@
 # npmtest-fibers
 
-#### test coverage for  [fibers (v1.0.15)](https://github.com/laverdet/node-fibers)  [![npm package](https://img.shields.io/npm/v/npmtest-fibers.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fibers) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fibers.svg)](https://travis-ci.org/npmtest/node-npmtest-fibers)
+#### basic test coverage for  [fibers (v1.0.15)](https://github.com/laverdet/node-fibers)  [![npm package](https://img.shields.io/npm/v/npmtest-fibers.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fibers) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fibers.svg)](https://travis-ci.org/npmtest/node-npmtest-fibers)
 
 #### Cooperative multi-tasking for Javascript
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fibers/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fibers/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fibers/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fibers/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fibers/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fibers/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fibers/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fibers/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fibers/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fibers/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fibers/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fibers/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
         "install": "node build.js || nodejs build.js",
         "test": "node test.js || nodejs test.js"
     },
-    "version": "1.0.15"
+    "version": "1.0.15",
+    "bin": {}
 }
 ```
 
